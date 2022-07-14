@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 
 	private Properties properties;
-	private final String propertyFilePath = "E:\\SeleniumPractice\\src\\main\\java\\configs\\Configuration.properties";
+	private final String propertyFilePath = "src/main/java/configs/Configuration.properties";
 
 	public ConfigFileReader() {
 		BufferedReader reader;
